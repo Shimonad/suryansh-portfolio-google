@@ -77,11 +77,11 @@ const HomePage = () => {
             </div>
 
             {/* Right Content - Only Picture with Animation */}
-            <div className="lg:col-span-5 flex justify-center lg:justify-end">
+            <div className="lg:col-span-5 flex justify-center">
               <img
                 src="/profile.png"
                 alt="Profile"
-                className="w-96 h-96 object-contain animate-shake"
+                className="max-w-[50rem] max-h-[50rem] object-contain"
               />
             </div>
           </div>
